@@ -1,0 +1,148 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 66963522742,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login.start_session()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Login and Logout",
+        "description": "",
+        "id": "as-a-user,;login-and-logout",
+        "after": [
+          {
+            "result": {
+              "duration": 25721964117,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login.end_session()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9032968672,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "am on the \"Landing\" Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Landing",
+                  "offset": 11
+                }
+              ],
+              "location": "Login.am_on_the_Page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 520518697,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter my \"Username\" as \"wegit\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Username",
+                  "offset": 12
+                },
+                {
+                  "val": "wegit",
+                  "offset": 26
+                }
+              ],
+              "location": "Login.i_enter_my_as(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2261969480,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter my \"Password\" as \"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password",
+                  "offset": 12
+                },
+                {
+                  "val": "12345678",
+                  "offset": 26
+                }
+              ],
+              "location": "Login.i_enter_my_as(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 947021767,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click \"Login\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login",
+                  "offset": 9
+                }
+              ],
+              "location": "Login.i_click_button(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5271641451,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "am on the \"Home\" Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Home",
+                  "offset": 11
+                }
+              ],
+              "location": "Login.am_on_the_Page(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "As a user,",
+    "description": "I want to be able to Login and Logout",
+    "id": "as-a-user,",
+    "keyword": "Feature",
+    "uri": "Login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Recall"
+      }
+    ]
+  }
+]
